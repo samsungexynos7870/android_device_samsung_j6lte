@@ -19,7 +19,7 @@ DEVICE_PATH := device/samsung/j6lte
 BOARD_USE_TFA_AMP := true
 
 # Assert
-# TARGET_OTA_ASSERT_DEVICE := j6lte,j6ltexc,j6ltexx,j6ltelk
+TARGET_OTA_ASSERT_DEVICE := j6lte,j6ltexc,j6ltexx,j6ltelk,j6ltedx
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
