@@ -37,8 +37,12 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0-impl \
-    android.hardware.bluetooth@1.0-service
+    android.hardware.bluetooth@1.0-impl.7870 \
+    android.hardware.bluetooth@1.0-service \
+    libbt-vendor
+
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/bluetooth/bt_vendor.conf:vendor/etc/bluetooth/bt_vendor.conf
 
 # Fingerprint
 PRODUCT_PACKAGES += \
