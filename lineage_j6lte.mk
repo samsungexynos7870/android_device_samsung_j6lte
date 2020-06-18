@@ -27,7 +27,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := j6lte
-PRODUCT_NAME := lineage_j6ltelte
+PRODUCT_NAME := lineage_j6lte
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G981B
 PRODUCT_MANUFACTURER := samsung
