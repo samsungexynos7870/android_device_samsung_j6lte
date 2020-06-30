@@ -19,6 +19,7 @@ vendor/lib/libtfa98xx.so
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service
 vendor/etc/init/android.hardware.bluetooth@1.0-service.rc
+vendor/firmware/bcm43436B0_V0086.0137.hcd
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl.so
 vendor/lib/libbt-vendor.so
 vendor/lib/vendor.samsung.hardware.bluetooth@2.0.so
@@ -83,8 +84,6 @@ vendor/lib/libMcRegistry.so
 vendor/firmware/nfc/sec_s3nrn81_firmware.bin
 vendor/etc/nfc/sec_s3nrn81_rfreg.bin
 vendor/etc/libnfc-nci.conf
-vendor/etc/libnfc-sec.conf
-vendor/etc/libnfc-sec-hal.conf
 vendor/etc/libnfc-sec-vendor.conf
 vendor/bin/hw/sec.android.hardware.nfc@1.2-service
 vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc
@@ -100,4 +99,3 @@ vendor/etc/wifi/bcmdhd_clm.blob
 vendor/etc/wifi/bcmdhd_mfg.bin_36
 vendor/etc/wifi/bcmdhd_sta.bin_36
 vendor/etc/wifi/nvram.txt_36
-vendor/firmware/bcm43436B0_V0086.0137.hcd
