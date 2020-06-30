@@ -29,7 +29,6 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 PRODUCT_DEVICE := j6lte
 PRODUCT_NAME := aosp_j6lte
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-G981B
 PRODUCT_MANUFACTURER := samsung
 
 TARGET_VENDOR := samsung
