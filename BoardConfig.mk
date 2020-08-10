@@ -82,7 +82,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := "ABGR_8888"
 AB_OTA_UPDATER := false
 
 # TWRP specific build flags
-TARGET_OTA_ASSERT_DEVICE := j6lte
+TARGET_OTA_ASSERT_DEVICE := j6lte,j6ltecis,j6ltexx,j6lteub,j6lteins,j6ltedtvvj,j6ltekx,j6ltedx
 RECOVERY_SDCARD_ON_DATA := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
 TW_EXCLUDE_DEFAULT_USB_INIT := true
