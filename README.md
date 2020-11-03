@@ -16,11 +16,10 @@ $ git clone https://gitlab.com/OrangeFox/device/j6lte.git -b fox_9.0 device/sams
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Build
-$ mv device/samsung/j6lte/build_ofox.sh .
-$ . build_ofox.sh j6lte
+$ source build/envsetup.sh ; lunch omni_j6lte-eng ; mka recoveryimage
 ```
 ## Credits
-2019 @Astrako
+2020 @Astrako
 
 ## Contact
 Telegram support group: https://t.me/joinchat/D1Jk_VbieGBXOWZt2y8O7A

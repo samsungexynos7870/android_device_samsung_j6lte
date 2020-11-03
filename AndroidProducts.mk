@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/j6lte/
+LOCAL_PATH := device/samsung/j6lte
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 PRODUCT_MAKEFILES := $(LOCAL_PATH)/omni_j6lte.mk
