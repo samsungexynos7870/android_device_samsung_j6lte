@@ -30,4 +30,3 @@ PRODUCT_NAME := omni_j6lte
 PRODUCT_MODEL := Samsung Galaxy J6 2018
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-

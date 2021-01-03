@@ -10,14 +10,13 @@ $ mkdir twrp ; cd twrp
 $ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
 
 # Clone my local repo
-$ git clone https://github.com/samsungexynos7870/android_device_samsung_j6lte.git -b twrp device/samsung/j6lte
+$ git clone https://github.com/samsungexynos7870/android_manifest_samsung_j6lte.git -b twrp .repo/local_manifests
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
 
 # Build
-$ mv device/samsung/j6lte/build_twrp.sh .
-$ . build_twrp.sh j6lte
+$ source build/envsetup.sh ; lunch omni_j6lte-eng ; mka recoveryimage
 ```
 ## Credits
 2020 @Astrako
