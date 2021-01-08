@@ -23,11 +23,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/samsung/j6lte/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aurora/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := j6lte
-PRODUCT_NAME := lineage_j6lte
+PRODUCT_NAME := aurora_j6lte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 
