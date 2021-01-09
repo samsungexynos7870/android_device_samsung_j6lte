@@ -331,7 +331,7 @@
         <fqname>@1.2::ISupplicant/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.auroraos.power</name>
+        <name>vendor.aurora.power</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
@@ -340,7 +340,7 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.auroraos.trust</name>
+        <name>vendor.aurora.trust</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
         <interface>
@@ -349,7 +349,7 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.auroraos.touch</name>
+        <name>vendor.aurora.touch</name>
         <transport arch="32+64">passthrough</transport>
         <version>1.0</version>
         <interface>
@@ -358,7 +358,7 @@
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.auroraos.livedisplay</name>
+        <name>vendor.aurora.livedisplay</name>
         <transport arch="32+64">passthrough</transport>
         <version>2.0</version>
         <interface>
