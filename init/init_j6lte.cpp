@@ -129,8 +129,8 @@ void vendor_load_properties()
     }
 
     /* Common properties*/
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys");
-    property_override("ro.build.description", "samsung/j6ltexx/j6lte:10/QP1A.190711.020/J600FNXXU7CTC8:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys");
+    property_override("ro.build.description", "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys");
     property_override_quad("ro.product.device", "ro.product.odm.device", "ro.product.system.device", "ro.product.vendor.device", "a3y17lte");
 
     std::string device = GetProperty("ro.product.device", "");
