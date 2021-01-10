@@ -26,7 +26,9 @@ BOARD_HAVE_BLUETOOTH := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := exynos7870-j6lte_defconfig
+TARGET_PREBUILT_KERNEL := /home/f_duca00/aurora/boot.img
+PRODUCT_COPY_FILES += \
+	$(TARGET_PREBUILT_KERNEL):kernel
 
 # HIDL
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifest.xml
