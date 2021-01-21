@@ -100,7 +100,7 @@ void vendor_load_properties()
         init_dsds();
 
     } else if (bootloader.find("J600GU") == 0) {
-    /* SM-J600G */
+    /* SM-J600GU */
         property_override_quad("ro.product.model", "ro.product.odm.model", "ro.product.system.model", "ro.product.vendor.model", "SM-J600G");
         property_override_quad("ro.product.name", "ro.product.odm.name", "ro.product.system.name", "ro.product.vendor.name", "j6lteub");
 
