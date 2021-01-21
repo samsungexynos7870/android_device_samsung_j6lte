@@ -36,5 +36,10 @@ TARGET_VENDOR := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 TARGET_BOOT_ANIMATION_RES := 720
+
+# GApps
 TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+# WITH_GAPPS := true
+# GAPPS_VARIANT := micro
 
