@@ -22,12 +22,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from j6lte device
 $(call inherit-product, device/samsung/j6lte/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common RR stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := j6lte
-PRODUCT_NAME := lineage_j6lte
+PRODUCT_NAME := rr_j6lte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 
@@ -38,3 +38,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_GAPPS_ARCH := arm64
 
+#ResurrectionRemix flags
+TARGET_FACE_UNLOCK_SUPPORTED := true
