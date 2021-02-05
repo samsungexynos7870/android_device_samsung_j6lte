@@ -39,3 +39,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_GAPPS_ARCH := arm64
 
+# Build Info
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys"
