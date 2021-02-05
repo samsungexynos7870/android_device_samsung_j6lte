@@ -2,5 +2,10 @@
     {
         "repository": "android_device_samsung_universal7870-common",
         "target_path": "device/samsung/universal7870-common"
+    },
+    {
+        "repository": "FraSharp/android_kernel_samsung_exynos7870",
+        "target_path": "kernel/samsung/exynos7870",
+        "branch": "aosp"
     }
 ]
