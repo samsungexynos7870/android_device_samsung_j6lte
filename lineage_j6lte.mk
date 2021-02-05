@@ -29,6 +29,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 PRODUCT_DEVICE := j6lte
 PRODUCT_NAME := lineage_j6lte
 PRODUCT_BRAND := samsung
+PRODUCT_MODEL := Galaxy J6
 PRODUCT_MANUFACTURER := samsung
 
 TARGET_VENDOR := samsung
