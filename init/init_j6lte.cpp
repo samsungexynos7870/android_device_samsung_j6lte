@@ -82,6 +82,7 @@ void vendor_load_properties()
 {
     // Init a dummy BT MAC address, will be overwritten later
     property_set("ro.boot.btmacaddr", "00:00:00:00:00:00");
+   property_set("ro.build.selinux", "0");
 
     std::string bootloader = GetProperty("ro.bootloader","");
 
