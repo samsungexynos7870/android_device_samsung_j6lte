@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
 # Launch Android API level
-PRODUCT_SHIPPING_API_LEVEL := 23
+PRODUCT_SHIPPING_API_LEVEL := 26
 
 # Bootanimation
 TARGET_SCREEN_HEIGHT := 1480
