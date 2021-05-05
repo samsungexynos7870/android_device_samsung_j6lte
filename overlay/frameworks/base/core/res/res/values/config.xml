@@ -51,4 +51,7 @@
     <!-- Enable system navigation keys. -->
     <bool name="config_supportSystemNavigationKeys">true</bool>
 
+    <!--  WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION is deprecated in R so we move to overlay -->
+    <bool name="config_wifi_ap_randomization_supported">false</bool>
+
 </resources>
