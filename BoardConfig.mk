@@ -25,6 +25,9 @@ TARGET_OTA_ASSERT_DEVICE := j6lte,j6ltecis,j6ltexx,j6lteub,j6lteins,j6ltedtvvj,j
 BOARD_HAVE_BLUETOOTH := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
+# Display
+ TARGET_SCREEN_DENSITY := 320
+
 # Kernel
 TARGET_KERNEL_CONFIG := exynos7870-j6lte_defconfig
 
