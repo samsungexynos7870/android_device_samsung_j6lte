@@ -45,4 +45,9 @@
     <!-- enable support for configure max aspect ratio per app -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
+     <!-- Specify if the fingerprint hardware support gestures-->
+     <bool name="config_fingerprintSupportsGestures">true</bool>
+
+     <!-- Enable system navigation keys. -->
+     <bool name="config_supportSystemNavigationKeys">true</bool>
 </resources>
