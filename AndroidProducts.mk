@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_j6lte.mk
+    $(LOCAL_DIR)/rr_j6lte.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_j6lte-user \
-    lineage_j6lte-userdebug \
-    lineage_j6lte-eng
+    rr_j6lte-user \
+    rr_j6lte-userdebug \
+    rr_j6lte-eng
