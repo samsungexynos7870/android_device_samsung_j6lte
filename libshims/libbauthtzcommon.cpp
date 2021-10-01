@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 The LineageOS Project
+ * Copyright (C) 2021 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,6 +17,7 @@
 #define LOG_TAG "libbauthtzcommon_shim"
 #define LOG_NDEBUG 0
 
+extern "C" {
 #include <cutils/log.h>
 
 int BAuth_Hat_OP(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)
@@ -30,4 +31,4 @@ int BAuth_Hat_OP(int arg0, int arg1, int arg2, int arg3, int arg4, int arg5)
 
     return 0;
 }
-
+}
