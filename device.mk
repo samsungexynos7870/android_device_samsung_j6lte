@@ -16,6 +16,9 @@
 
 DEVICE_PATH := device/samsung/j6lte
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += device/samsung/j6lte
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hce.xml \
