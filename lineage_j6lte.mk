@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,16 +26,16 @@ $(call inherit-product, device/samsung/j6lte/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := j6lte
 PRODUCT_NAME := lineage_j6lte
-PRODUCT_BRAND := samsung
-PRODUCT_MODEL := Galaxy J6
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_DEVICE := j6lte
+PRODUCT_MANUFACTURER := Samsung
+PRODUCT_BRAND := Samsung
+PRODUCT_MODEL := Samsung Galaxy J6
 
-TARGET_VENDOR := samsung
+TARGET_BOOT_ANIMATION_RES := 720
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
-TARGET_BOOT_ANIMATION_RES := 720
-TARGET_GAPPS_ARCH := arm64
+BUILD_FINGERPRINT := "samsung/j6ltexx/j6lte:10/QP1A.190711.020/J600FNXXU7CTC8:user/release-keys"
 
+TARGET_VENDOR := samsung
