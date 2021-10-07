@@ -18,8 +18,6 @@ cc_library_static {
     name: "libinit_j6lte",
     recovery_available: true,
     srcs: ["init_j6lte.cpp"],
-    include_dirs: [
-        "system/core/base/include",
-        "system/core/init"
-    ]
+    include_dirs: ["system/core/init"],
+    shared_libs: ["libbase"]
 }
