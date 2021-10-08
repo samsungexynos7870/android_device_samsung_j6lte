@@ -135,7 +135,7 @@ void vendor_load_properties()
     }
 
     /* Common properties*/
-    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/redfin/redfin:11/RQ3A.211001.001/7641976:user/release-keys");
     property_override("ro.build.description", "samsung/j6ltexx/j6lte:10/QP1A.190711.020/J600FNXXU7CTC8:user/release-keys");
     property_override_quad("ro.product.device", "ro.product.odm.device", "ro.product.system.device", "ro.product.vendor.device", "j6lte");
 
