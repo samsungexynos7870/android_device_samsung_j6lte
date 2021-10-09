@@ -32,7 +32,7 @@ TARGET_SCREEN_DENSITY := 320
 TARGET_KERNEL_CONFIG := exynos7870-j6lte_defconfig
 
 # HIDL
-DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifest.xml
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_j6lte

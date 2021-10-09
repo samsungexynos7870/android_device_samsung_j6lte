@@ -74,6 +74,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbauthtzcommon_shim
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.0-service.universal7870
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
