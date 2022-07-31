@@ -15,8 +15,11 @@
 
 DEVICE_PATH := device/samsung/j6lte
 
-# Audio
-BOARD_USE_TFA_AMP := true
+# TFA-Audio
+BOARD_USES_EXYNOS7870_TFA_AMP := true
+
+# exynos7870 OSS audio hal
+TARGET_AUDIOHAL_VARIANT := samsung-exynos7870
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := j6lte,j6ltecis,j6ltexx,j6lteub,j6lteins,j6ltedtvvj,j6ltekx,j6ltedx
